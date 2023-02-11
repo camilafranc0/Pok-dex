@@ -160,7 +160,7 @@ main{
 }
 
 
-@media (max-width: 420px){
+@media (max-width: 450px){
 
     body{
         display: flex;
@@ -173,7 +173,7 @@ main{
     }
 
     .pokedex{
-        max-width: 350px;
+        width: 350px;
         
 
         
@@ -208,7 +208,7 @@ main{
     
 
     .pokedex{
-        max-width: 350px;
+        width: 350px;
         
 
         
@@ -241,7 +241,7 @@ main{
 
     
     .pokedex{
-        max-width: 320px;
+        width: 330px;
         
 
         
@@ -273,8 +273,31 @@ main{
 
 
 
-@media (max-width: 315px){
+@media (max-width: 350px){
 
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100vh;
+    }
+
+
+    main{
+        margin-top: 0;
+    }
+
+    .pokedex{
+        width: 290px;
+        
+
+        
+    }
+
+}
+
+@media (max-width: 315px){
     body{
         display: flex;
         align-items: center;
@@ -287,10 +310,30 @@ main{
     }
 
     .pokedex{
-        max-width: 300px;
+        max-width: 260px;
         
 
         
     }
+}
 
+
+@media (max-width: 280px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    main{
+        margin-top: 0;
+    }
+
+    .pokedex{
+        width: 240px;
+        
+
+        
+    }
 }
